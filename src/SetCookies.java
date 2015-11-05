@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 /**
  * Created by tage on 15-10-4.
  */
-public class SetCookies extends HttpServlet{
+public class SetCookies extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         for (int i = 0; i < 3; i++) {

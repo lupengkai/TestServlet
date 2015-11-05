@@ -9,7 +9,7 @@ import java.util.Enumeration;
 /**
  * Created by tage on 15-10-3.
  */
-public class ShowParameters extends HttpServlet{
+public class ShowParameters extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=gb2312");
